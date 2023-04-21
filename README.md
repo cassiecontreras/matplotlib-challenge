@@ -24,7 +24,7 @@ This assignment is broken down into the following tasks:
 
   Submit your final analysis.
 
-###Prepare the Data
+### Prepare the Data
 
 Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
 
@@ -32,7 +32,7 @@ Display the number of unique mice IDs in the data, and then check for any mouse 
 
 Display the updated number of unique mice IDs.
 
-###Generate Summary Statistics
+### Generate Summary Statistics
 
 Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
 
@@ -42,7 +42,7 @@ A row for each drug regimen. These regimen names should be contained in the inde
 
 A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
-###Create Bar Charts and Pie Charts
+### Create Bar Charts and Pie Charts
 
 Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
 
@@ -56,7 +56,7 @@ Create the first pie chart with the Pandas DataFrame.plot() method.
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
-###Calculate Quartiles, Find Outliers, and Create a Box Plot
+### Calculate Quartiles, Find Outliers, and Create a Box Plot
 
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
@@ -84,7 +84,7 @@ Calculate the correlation coefficient and linear regression model between mouse 
 
 Plot the linear regression model on top of the previous scatter plot.
 
-##Requirements
+## Requirements
 
 ### Prepare the Data (20 points)
 The datasets are merged into a single DataFrame. (6 points)
